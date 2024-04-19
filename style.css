@@ -1,0 +1,47 @@
+*{padding: 0; margin: 0;}
+
+header {
+    background: rgb(18,11,148);
+    background: linear-gradient(0deg, rgba(18,11,148,1) 0%, rgba(17,17,162,1) 100%);
+    height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.logocedh {
+    height:100px;
+    width:auto;
+}
+
+.logo {
+    background-color:whitesmoke;
+    padding:10px;
+    border-radius:0px 0px 15px 15px;
+    height:100px;
+}
+
+.secciones {
+    display:flex;
+    align-items:center;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+a:hover{
+    color: rgb(255, 230, 117);
+}
+
+.enlaces-top {
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    padding:5px;
+    gap:15px;
+}
