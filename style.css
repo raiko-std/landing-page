@@ -1,7 +1,7 @@
 *{padding: 0; margin: 0;}
 
 header {
-    background: rgb(18,11,148);
+    background: #120b94;
     background: linear-gradient(0deg, rgba(18,11,148,1) 0%, rgba(17,17,162,1) 100%);
     height:50px;
     display:flex;
@@ -15,7 +15,7 @@ header {
 }
 
 .logo {
-    background-color:whitesmoke;
+    background-color:white;
     padding:10px;
     border-radius:0px 0px 15px 15px;
     height:100px;
@@ -24,6 +24,7 @@ header {
 .secciones {
     display:flex;
     align-items:center;
+    gap:20px;
 }
 
 a {
@@ -33,6 +34,7 @@ a {
 
 a:hover{
     color: rgb(255, 230, 117);
+    text-decoration:underline;
 }
 
 .enlaces-top {
@@ -44,4 +46,89 @@ a:hover{
     flex-direction:row;
     padding:5px;
     gap:15px;
+}
+
+.search-wrapper{
+    height: 30px;
+    gap:5px;
+    display:flex;
+    align-items:stretch;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+    border-radius: 50px;
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 400px;
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.273);
+}
+
+.search-icon{
+    color:rgba(0, 0, 0, 0.564);
+    align-self:center;
+    padding:5px 7px 5px 10px;
+}
+
+#search-section {
+    border:0;
+    width: 150px;
+}
+
+#search-section:focus {
+    outline:none;
+}
+
+#search-button {
+    border:none;
+    cursor:pointer;
+    background-color:rgb(192, 193, 248);
+    padding:5px 10px;
+}
+
+#section-noticias {
+    height: 350px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 10px;
+    background-color:whitesmoke;
+    padding:40px 0;
+}
+
+.texto-noticias{
+    width: 600px;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+h1 {
+    font-size:60px;
+    margin: 15px 0;
+}
+
+h1 span{
+    color: rgb(161, 141, 90);
+    letter-spacing:10px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+    color: #14421e;
+}
+
+.texto-noticias p {
+    color: #696969;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.imagen-noticias {
+    display:flex;
+    align-items:center;
+}
+
+.informe2023 {
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 49px #d0d0d0,-20px -20px 49px #f0f0f0;
 }
