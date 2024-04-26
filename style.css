@@ -210,7 +210,7 @@ h2{
 }
 
 #enlaces-internos {
-    padding:30px;
+    padding:40px 0;
     background: #181370;
     background: linear-gradient(0deg, rgb(17, 12, 105) 0%, rgb(14, 14, 88)100%);
     display:flex;
@@ -283,7 +283,7 @@ h2{
 }
 
 #quejas-recibidas {
-    padding:30px;
+    padding:40px 0;
     background-color:whitesmoke;
 
     display:flex;
@@ -305,6 +305,7 @@ h2{
 .total-quejas p {
     font-family:"Oswald", sans-serif;
     color:#3b3b3b;
+    letter-spacing:2px;
 }
 
 .total-quejas .cantidad {
@@ -321,7 +322,69 @@ h2{
     align-items:center;
 }
 
+.grupo-quejas {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+
 .grupo-quejas2 {
     display:flex;
     flex-direction:row;
+}
+
+.quejas {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.grupo-quejas2 .cantidad {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px;
+    font-weight:700;
+    color:#252525;
+}
+
+.grupo-quejas2 p{
+    font-family:"Oswald", sans-serif;
+    color:#3b3b3b;
+}
+
+.frase-texto {
+    background: #181370;
+    background: linear-gradient(0deg, rgb(17, 12, 105) 0%, rgb(14, 14, 88)100%);
+    padding:50px 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.logo-blanco {
+    height:150px;
+    width:auto;
+}
+
+.seccion-texto {
+    padding: 0 0 10px 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    border-bottom:3px solid #d0d0d0;
+}
+
+.seccion-texto h5 {
+    color:whitesmoke;
+    font-family: "Playfair Display", serif;
+    font-size:40px;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.77);
+}
+
+.seccion-texto span {
+    color:rgb(255, 235, 124);
+    letter-spacing: 2px;
 }
